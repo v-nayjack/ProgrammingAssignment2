@@ -25,6 +25,8 @@ makeCacheMatrix <- function (x = matrix()) {
 
 ## this function only works for 2 X 2 matrix
 
+## I have been trying to find a function that can find inverse of a matrix 3 X 3
+
 cacheSolve <- function(x, ...) {
         ## Return a matrix that is the inverse of 'x'
         I <- x$getinv()
